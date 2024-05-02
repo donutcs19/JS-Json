@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>Color Palette Generator</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="profile-card">
+        <div class="card-header">
+          <div class="header-profile">
+            <div class="info">
+              ID: <h3 id="profile-id">67</h3>
+            </div>
+            <div class="info">
+              Username: <h3 id="profile-username">Shikikie</h3>
+            </div>
+            <div class="info">
+              Name: <h3 id="profile-name">Shikikie Donut</h3>
+            </div>
+            <div class="info">
+              Email: <h3 id="profile-email">Shikikie_dn@gmail.com</h3>
+            </div>
+            <div class="info">
+              Phone: <h3 id="profile-phone">099-2412568</h3>
+            </div>
+            <div class="info">
+              Website: <h3 id="profile-website">www.Shikikie_dn.com</h3>
+            </div>
+            <div class="info">
+              Location: <a href="" id="link-location"><h3 id="profile-location">Click me</h3></a>
+            </div>
+          </div>
+          <div class="avatar">
+            <img class="profile-avatar" id="profile-avt" src="https://api.dicebear.com/8.x/bottts/svg?seed=kikie" alt="avatar">
+          </div>
+        </div>
+        <div class="card-content">
+          <p>Address in <span id="profile-address">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, consequuntur quidem dolore obcaecati facere sunt nulla!</span></p>
+          <p>Company in <span id="profile-company">Lorem ipsum, dolor sit amet co
+        </div>
+      </div>
+    </div>
+    <div class="actions" >
+      <button id="generate-button" onclick="generate()" >Generate</button>
+    </div>
+    <div class="actions" >
+      <a href="product.html"><button id="generate-button" >Product</button></a>
+    </div>
+    <div class="footer-credit">
+      <p class="credit-text">MAKEWEBBKK</p>
+    </div>
+
+    <script src="./script/app.js"></script>
+  </body>
+</html>
